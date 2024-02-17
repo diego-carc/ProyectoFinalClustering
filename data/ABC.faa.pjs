@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "ABC.faa",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "../data/ABC.faa",
+  "number-of-letters": 14557,
+  "number-of-sequences": 100,
+  "last-updated": "2024-02-17T16:17:00",
+  "number-of-volumes": 1,
+  "bytes-total": 73878,
+  "bytes-to-cache": 15554,
+  "files": [
+    "ABC.faa.pdb",
+    "ABC.faa.phr",
+    "ABC.faa.pin",
+    "ABC.faa.pog",
+    "ABC.faa.pos",
+    "ABC.faa.pot",
+    "ABC.faa.psq",
+    "ABC.faa.ptf",
+    "ABC.faa.pto"
+  ]
+}
