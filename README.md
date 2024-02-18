@@ -11,7 +11,9 @@ It is important to consider that we do not fully know where the data was taken f
 
 ### Cluster number estimation
 Before performing hierarchical clustering, we applied three methods to estimate the number of clusters in the data. We use the WSS, Silhouette, and Gap statistic methods using k-means and Ward as clustering algorithms, generating the six images available in the [figures directory](figures). Here we show the results of the Gap statistic method using the hclust implementation of the Ward algorithm. 
+
 ![](figures/nbclust_GAP_ward.png)
+
 Despite the method suggested a total of seven clusters, we opted to expect four groups given the consensus with the other two methods (not shown).  
 
 ### Figures and interpretation
