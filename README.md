@@ -14,6 +14,7 @@ We summarize the obtained agglomerative coefficents in the following table:
 | Average  | 0.71                     |
 | Complete | 0.77                     |
 | Ward     | 0.98                     |
+
 The Ward method gave us the highest agglomerative coefficent. However, as we have previously discussed, the results interpretation can´t be agnostic  to the biological context of the data, so the fact that Ward performed the best in terms of aggomerative coefficent doesn´t mean it will generate the best tree. 
 
 ### References
