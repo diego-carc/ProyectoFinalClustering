@@ -26,7 +26,7 @@ However, it might be more informative since is noteworthy as ABC-2a and ABC-2b a
 
 It might be a result of an intern clusters separation in ABC-2a clade (which is evident in the Ward tree figure). The proteins that are being considered in ABC-2b that belong to ABC-2a might be proteins that haven't had a strong differentiation process, resembling a midpoint between ABC-2a and ABC-2b. And this midpoint-like group on the data may make the group ABC-2a look apparently closer to ABC-3 rather to ABC-2b.
 
-On the other hand, the phylogeny recovered by the ward method appears less informative. While it correctly separates proteins into clusters, they are considerably distant from each other, despite we know that that all the 100 proteins are homologous.
+On the other hand, the phylogeny recovered by the ward method appears less informative. While it correctly separates proteins into the expected clusters, they are considerably distant from each other, despite we know that that all the 100 proteins are homologous.
 
 Although the method minimizes variance among groups, it fails to reflect the biological reality of their relationships. The distance portrayed may suggest significant divergence, like if they were different types of proteins, making it the least informative tree. 
 
