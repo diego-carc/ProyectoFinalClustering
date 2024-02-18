@@ -9,3 +9,17 @@ blastp.results$V2 <- NULL
 
 # Sort rows and columns
 blastp.results <- blastp.results[sort(row.names(blastp.results)), sort(colnames(blastp.results))]
+
+# set as matrix
+blastp.results <- as.matrix(blastp.results)
+
+# We replace NA with the minimum value on the matrix
+blastp.results[is.na(blastp.results)] <- 19.6
+
+# Normalize similarity to 1 ignoring the diagonal
+diag(blastp.results) <- 0
+distances.sim <- blastp.results / max(blastp.results)
+diag(distances.sim) <- 1
+
+# Convert to disimilarity
+distances.disim <- 1 - distances.sim
