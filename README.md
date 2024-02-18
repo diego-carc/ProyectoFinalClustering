@@ -1,6 +1,6 @@
 # ABC family proteins clustering
 
-## Written by [Ethan Galindo Raya](https://ethan-gr.github.io/ethangr.io/) and [Diego Carmona Campos](https://diego-carc.github.io/diego-carc.io/)
+### Written by [Ethan Galindo Raya](https://ethan-gr.github.io/ethangr.io/) and [Diego Carmona Campos](https://diego-carc.github.io/diego-carc.io/)
 
 ### Introduction 
 The ATP-binding cassette (ABC) proteins are a family of ATP-dependent transporters in charge of the movement of a wide variety of substances across the plasmatic membrane and several intracellular compartments. Since these proteins are almost ubiquitously found in all kinds of organisms, from prokaryotes to animals, it is speculated that they originated very early in life evolution and have diverged in different subfamilies to span a greater variety of biological functions [1]. 
@@ -8,6 +8,11 @@ The ATP-binding cassette (ABC) proteins are a family of ATP-dependent transporte
 According to the evolutionary mechanism that gives rise to gene homologs (duplication and divergence by mutation), it is expected that closely related family members share a greater amino acid sequence identity than distantly related ones. Thus it is reasonable that applying a hierarchical clustering algorithm on the sequence similarity data of a set of protein homologs would reflect the phylogenetic relationship of those proteins. In this project, we employ four hierarchical clustering methods to group a set of ABC proteins based on a distance matrix built from the bitscore of pairwise alignments using BLAST. 
 
 It is important to consider that we do not fully know where the data was taken from, nor the relationship between the sequences analyzed. The only hint available is found in the sequence identifiers in the fasta file. In a real study, we should have a better understanding of the sequences under analysis to properly interpret the results.
+
+### Cluster number estimation
+Before performing hierarchical clustering, we applied three methods to estimate the number of clusters in the data. We use the WSS, Silhouette, and Gap statistic methods using k-means and Ward as clustering algorithms, generating the six images available in the [figures directory](figures). Here we show the results of the Gap statistic method using the hclust implementation of the Ward algorithm. 
+![](figures/nbclust_GAP_ward.png)
+Despite the method suggested a total of seven clusters, we opted to expect four groups given the consensus with the other two methods (not shown).  
 
 ### Figures and interpretation
 
