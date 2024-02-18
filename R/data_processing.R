@@ -23,3 +23,6 @@ diag(distances.sim) <- 1
 
 # Convert to disimilarity
 distances.disim <- 1 - distances.sim
+
+# Save matrix
+write.table(distances.disim, "results/disimMatrix.tsv", sep='\t')
