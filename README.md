@@ -14,7 +14,7 @@ Before performing hierarchical clustering, we applied three methods to estimate 
 
 ![](figures/nbclust_GAP_ward.png)
 
-Despite the method suggested a total of seven clusters, we observed the other methods came to a consensus of four clusters (not shown). Thus we picked four as our expected number of clusters. Even in this figure, we observe the first significative slope change is given by four clusters, then the function gets stable.   
+Despite the method suggested a total of seven clusters, we observed the other methods came to a consensus of four clusters (not shown). Even in this figure, we observe the first significative slope change is given by four clusters, then the function gets stable. Thus we picked four as our expected number of clusters.
 
 ### Figures and interpretation
 
