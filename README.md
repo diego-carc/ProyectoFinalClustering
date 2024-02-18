@@ -20,11 +20,11 @@ It is important to consider that we do not fully know where the data was taken f
 #### Ward method
 ![](figures/phyloTree_ward.newick.png)
 
-We observed that three out of four phylogeny obtained are congruent with the protein's taxonomies, the only exception being the single linkage tree, which cluster some proteins ABC-2a within ABC-2b (The ones we remak taxa in blue on the Single linkage tree figure).
+We observed that three out of four phylogenies obtained are congruent with the protein's taxonomies, the only exception being the single linkage tree, which clusters some proteins ABC-2a within ABC-2b (The ones we remak taxa in blue on the Single linkage tree figure).
 
-However, it might be more informative since is noteworthy as ABC-2a and ABC-2b are taxonomically closer and we would expect the to be close in a phylogeny. While other methods separate them into distant clades and clustering ABC-2a closer to the ABC-3 clade.
+However, it might be more informative since is noteworthy as ABC-2a and ABC-2b are taxonomically closer and we would expect them to be close in a phylogeny. While other methods separate them into distant clades and cluster ABC-2a closer to the ABC-3 clade.
 
-It might be a result of an intern clusters separation in ABC-2a clade (which is evident in the Ward tree figure). The proteins that are being considered in ABC-2b that belong to ABC-2a might be proteins that haven't had a strong differentiation process, resembling a midpoint between ABC-2a and of ABC-2b. And this midpoint-like group on the data may make the group ABC-2a look apparently closer to ABC-3 rather to ABC-2b.
+It might be a result of an intern clusters separation in ABC-2a clade (which is evident in the Ward tree figure). The proteins that are being considered in ABC-2b that belong to ABC-2a might be proteins that haven't had a strong differentiation process, resembling a midpoint between ABC-2a and ABC-2b. And this midpoint-like group on the data may make the group ABC-2a look apparently closer to ABC-3 rather to ABC-2b.
 
 On the other hand, the phylogeny recovered by the ward method appears less informative. While it correctly separates proteins into clusters, they are considerably distant from each other, despite we know that that all the 100 proteins are homologous.
 
@@ -40,7 +40,7 @@ We summarize the obtained agglomerative coefficients in the following table:
 | Complete | 0.77                      |
 | Ward     | 0.98                      |
 
-The Ward method gave us the highest agglomerative coefficient. However, as we have previously discussed, the results interpretation can't be agnostic  to the biological context of the data, so the fact that Ward performed the best in terms of agglomerative coefficient doesn't mean it will generate the best tree. 
+The Ward method gave us the highest agglomerative coefficient. However, as we have previously discussed, the interpretation of the results can't be agnostic  to the biological context of the data, so the fact that Ward performed the best in terms of agglomerative coefficient doesn't mean it will generate the best tree. 
 
 ### References
 1. Vasiliou, V., Vasiliou, K., & Nebert, D. W. (2009). Human ATP-binding cassette (ABC) transporter family. Human genomics, 3(3), 281–290. [https://doi.org/10.1186/1479-7364-3-3-281](https://doi.org/10.1186/1479-7364-3-3-281)
